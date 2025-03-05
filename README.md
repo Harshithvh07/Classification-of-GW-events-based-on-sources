@@ -5,7 +5,7 @@ This project aims to classify gravitational wave events into three categories: *
 
 ## **2. Methodology**
 
-### **3.1 Data Preprocessing**
+### **2.1 Data Preprocessing**
 #### **Class Labeling:**
 - **BBH**: Both objects have mass ≥ 3 M☉
 - **BHNS**: One object is a black hole (≥ 3 M☉), the other is a neutron star (< 3 M☉)
@@ -20,10 +20,10 @@ This project aims to classify gravitational wave events into three categories: *
 #### **Splitting Data:**
 - 70% Training, 30% Testing
 
-### **3.2 Dealing with Class Imbalance**
+### **2.2 Dealing with Class Imbalance**
 - Applied **Random Over-Sampling (ROS)** to balance the dataset before training models.
 
-### **3.3 Model Training & Evaluation**
+### **2.3 Model Training & Evaluation**
 The following machine learning models were trained:
 ✅ **AdaBoost Classifier**
 ✅ **Gradient Boosting Classifier**
